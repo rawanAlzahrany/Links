@@ -1,0 +1,130 @@
+:root {
+  --bg: #0d0d0d;
+  --card: #161616;
+  --text: #f2f2f0;
+  --muted: #777772;
+  --accent: #2c3164;
+  --text2:#492b6b;
+  --hover: #1e1e1e;
+  --test:red;
+}
+
+a{
+    text-decoration: none;
+    color: var(--text2);
+    padding-left: 10px;
+}
+
+header{
+    text-align: center;
+    color: var(--text2);  
+    margin-top: 50px;  
+}
+
+
+body{
+    
+    background: linear-gradient(135deg, #0d0d0d, #1a1020, #0d0d0d);
+
+    
+}
+
+
+/* this contols the emoji and it's frame  */
+.emoji{
+
+  border: 5px solid var(--accent);
+  width: 80px;
+  height: 70px;
+  border-radius: 90px;
+  padding: 25px;
+  padding-top: 19px;
+  width: 5%;
+  text-align: center;
+  margin-left: 650px;
+  font-size: 60px;
+  background-color: rgb(217, 173, 221);
+
+}
+
+
+
+
+/* ------------------------ */
+
+.contactMe{
+    color:var(--accent);
+    
+}
+
+/* ------------------------ */
+
+
+
+p{
+    text-align: center;
+}
+
+.portWork p,.contactMe p {
+    color:var(--muted);
+     text-align:left;
+     font-weight: bold;
+}
+
+
+ 
+
+
+
+.portWork, .contactMe {
+  text-align: center;
+  width: 400px;
+  margin: 0 auto;
+}
+
+.portfolio, .github, .linkedIn, .CV, .mail, .whatsApp {
+
+  border: 1px solid var(--accent);
+  border-radius: 50px;
+  padding: 15px;
+  margin-bottom: 10px;
+  width: 100%;
+  color: var(--accent);
+  text-align: left; /* ADD THIS */
+
+}
+
+
+
+
+
+
+
+
+.portfolio:hover, .github:hover, .linkedIn:hover, .CV:hover, .mail:hover, .whatsApp:hover {
+  background: var(--hover);
+  cursor: pointer;
+}
+
+.portfolio a, .github a, .linkedIn a, .CV a, .mail a, .whatsApp a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+a i{
+    color: var(--accent);
+     padding-right: 20px;
+
+}
+
+
+
+footer p{
+
+
+    padding-top: 20px;
+    color: var(--text2);
+    text-align: center;
+
+}
