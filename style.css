@@ -1,130 +1,174 @@
 :root {
-  --bg: #0d0d0d;
-  --card: #161616;
-  --text: #f2f2f0;
-  --muted: #777772;
-  --accent: #2c3164;
-  --text2:#492b6b;
-  --hover: #1e1e1e;
-  --test:red;
+  --bg-deep:       #0f1f1a;
+  --text:          #e8f0ec;
+  --muted:         #7a9e8a;
+  --accent:        #2e5c48;
+  --accent-dim:    #1d3d2e;
+  --accent-bright: #4a8c6e;
+  --hover:         #1a3028;
+  --badge-bg:      #1a2e24;
+  --badge-text:    #8fcfae;
 }
 
-a{
-    text-decoration: none;
-    color: var(--text2);
-    padding-left: 10px;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-header{
-    text-align: center;
-    color: var(--text2);  
-    margin-top: 50px;  
+body {
+  background: linear-gradient(160deg, #0f1f1a, #162820, #0e1c17);
+  min-height: 100vh;
+  font-family: system-ui, sans-serif;
+  color: var(--text);
+  padding: 32px 16px 24px;
 }
 
-
-body{
-    
-    background: linear-gradient(135deg, #0d0d0d, #1a1020, #0d0d0d);
-
-    
-}
-
-
-/* this contols the emoji and it's frame  */
-.emoji{
-
-  border: 5px solid var(--accent);
-  width: 80px;
-  height: 70px;
-  border-radius: 90px;
-  padding: 25px;
-  padding-top: 19px;
-  width: 5%;
+/* ── Header ── */
+header {
   text-align: center;
-  margin-left: 650px;
-  font-size: 60px;
-  background-color: rgb(217, 173, 221);
-
+  margin-bottom: 28px;
 }
 
-
-
-
-/* ------------------------ */
-
-.contactMe{
-    color:var(--accent);
-    
+.emoji {
+  width: 76px;
+  height: 76px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #162820, #2e5c48);
+  border: 1.5px solid var(--accent-bright);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 36px;
+  margin: 0 auto 14px;
+  padding: 0;
 }
 
-/* ------------------------ */
-
-
-
-p{
-    text-align: center;
+header h3 {
+  font-size: 16px;
+  font-weight: normal;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--text);
+  margin-bottom: 5px;
+  font-family: Georgia, 'Times New Roman', serif;
 }
 
-.portWork p,.contactMe p {
-    color:var(--muted);
-     text-align:left;
-     font-weight: bold;
-}
-
-
- 
-
-
-
-.portWork, .contactMe {
-  text-align: center;
-  width: 400px;
-  margin: 0 auto;
-}
-
-.portfolio, .github, .linkedIn, .CV, .mail, .whatsApp {
-
-  border: 1px solid var(--accent);
-  border-radius: 50px;
-  padding: 15px;
+header .role {
+  font-size: 12px;
+  color: var(--muted);
   margin-bottom: 10px;
-  width: 100%;
-  color: var(--accent);
-  text-align: left; /* ADD THIS */
-
+  letter-spacing: 0.04em;
 }
 
+#inten {
+  display: inline-block;
+  background: var(--badge-bg);
+  color: var(--badge-text);
+  font-size: 10px;
+  padding: 4px 14px;
+  border-radius: 20px;
+  border: 1px solid var(--accent);
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+}
 
+/* ── Sections ── */
+.portWork,
+.contactMe {
+  width: 90%;
+  max-width: 400px;
+  margin: 0 auto 8px;
+}
 
+.section-label {
+  font-size: 10px;
+  color: var(--muted);
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin: 22px 0 9px;
+  text-align: left;
+}
 
+/* ── Link cards ── */
+.link-card {
+  border: 1px solid var(--accent-dim);
+  border-radius: 12px;
+  margin-bottom: 8px;
+  transition: background 0.15s;
+}
 
-
-
-
-.portfolio:hover, .github:hover, .linkedIn:hover, .CV:hover, .mail:hover, .whatsApp:hover {
+.link-card:hover {
   background: var(--hover);
   cursor: pointer;
 }
 
-.portfolio a, .github a, .linkedIn a, .CV a, .mail a, .whatsApp a {
-  display: block;
+.link-card a {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  padding: 13px 16px;
+  text-decoration: none;
+  color: var(--text);
   width: 100%;
-  height: 100%;
 }
 
-a i{
-    color: var(--accent);
-     padding-right: 20px;
-
+.link-icon {
+  width: 36px;
+  height: 36px;
+  border-radius: 8px;
+  background: var(--accent-dim);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  color: var(--badge-text);
+  font-size: 17px;
 }
 
+.link-text {
+  display: flex;
+  flex-direction: column;
+}
 
+.link-text strong {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--text);
+}
 
-footer p{
+.link-sub {
+  font-size: 11px;
+  color: var(--muted);
+  margin-top: 1px;
+}
 
+/* ── Footer ── */
+footer {
+  text-align: center;
+  margin-top: 28px;
+}
 
-    padding-top: 20px;
-    color: var(--text2);
-    text-align: center;
+footer p {
+  font-size: 11px;
+  color: var(--muted);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
 
+/* ── Mobile ── */
+@media (max-width: 480px) {
+  body {
+    padding: 24px 16px;
+  }
+
+  .portWork,
+  .contactMe {
+    width: 100%;
+  }
+
+  .link-card a {
+    padding: 12px 14px;
+  }
 }
