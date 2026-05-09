@@ -38,8 +38,6 @@ That URL is what I share as my link-in-bio.
 
 ## Preview
 
-> Add a screenshot of your page here:
-
 <img width="1440" height="815" alt="Screenshot 1447-11-22 at 2 29 47 PM" src="https://github.com/user-attachments/assets/092dbfb0-72db-4242-b33d-9d721dc68e57" />
 
 
