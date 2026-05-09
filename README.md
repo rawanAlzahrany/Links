@@ -2,7 +2,7 @@
 
 A personal link-in-bio page built to share my portfolio, social profiles, CV, and contact info in one clean place. Designed to match my personal brand identity inspired by my business card.
 
----
+
 
 ## Technologies Used
 
@@ -11,7 +11,7 @@ A personal link-in-bio page built to share my portfolio, social profiles, CV, an
 - **Bootstrap Icons** — icon library via CDN
 - **Google Fonts / Georgia** — serif typography to match brand identity
 
----
+
 
 ## Process
 
@@ -19,17 +19,7 @@ I started with a basic HTML structure grouping links into two sections: Portfoli
 
 I then styled it with a dark background and a custom color palette pulled from my business card — a deep forest green with soft sage accents. Key decisions along the way:
 
----
 
-## How to Run
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/rawanAlzahrany/YOUR-REPO-NAME.git
-   ```
-2. Open `index.html` in any browser — no build tools or dependencies needed.
-
----
 
 ## How It Became a Live Link
 
@@ -45,7 +35,6 @@ I hosted it using **GitHub Pages**:
 
 That URL is what I share as my link-in-bio.
 
----
 
 ## Preview
 
