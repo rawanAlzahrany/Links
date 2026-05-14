@@ -36,9 +36,13 @@ I hosted it using **GitHub Pages**:
 That URL is what I share as my link-in-bio.
 
 
-## Preview
+## Preview  
 
+Green version:
 <img width="1440" height="815" alt="Screenshot 1447-11-22 at 2 29 47 PM" src="https://github.com/user-attachments/assets/092dbfb0-72db-4242-b33d-9d721dc68e57" />
+
+Blue version:
+<img width="1435" height="816" alt="Screenshot 1447-11-27 at 8 49 48 PM (2)" src="https://github.com/user-attachments/assets/89b28ee7-03dd-40b6-a977-95cc7f72373b" />
 
 
 ---
